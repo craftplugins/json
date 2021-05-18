@@ -2,11 +2,19 @@
 
 Field type for raw JSON editing.
 
-![Screenshot](resources/img/plugin-logo.png)
+✅ Advanced JSON editor based on [VS Code](https://code.visualstudio.com/)
+
+✅ Validates JSON
+
+✅ Optionally, prettifies messy JSON
+
+✅ GraphQL support
+
+✅ Includes a `@jsonDecode` directive for GraphQL
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.6.x or newer.
 
 ## Installation
 
@@ -18,26 +26,12 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require augmentations/craft-json/json
+        composer require augmentations/craft-json
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for JSON.
 
-## JSON Overview
-
--Insert text here-
-
-## Configuring JSON
-
--Insert text here-
-
-## Using JSON
-
--Insert text here-
-
 ## JSON Roadmap
 
-Some things to do, and ideas for potential features:
-
-* Release it
+[ ] Add more documentation 
 
 Brought to you by [Augmentations](https://github.com/augmentations)
