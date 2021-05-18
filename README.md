@@ -1,6 +1,11 @@
-# JSON plugin for Craft CMS 3.x
+<h1 align="center">
+  <img src="./src/icon.svg" width="64" alt="logo" />
+  <div>JSON for Craft CMS</div>
+</h1>
 
-Field type for raw JSON editing.
+Craft 3 field type and helpers for easy JSON editing.
+
+## Features
 
 ✅ Advanced JSON editor based on [VS Code](https://code.visualstudio.com/)
 
@@ -32,6 +37,8 @@ To install the plugin, follow these instructions.
 
 ## JSON Roadmap
 
-[ ] Add more documentation 
+- [ ] Publish to Packagist
+- [ ] Publish to Craft Plugin Store 
+- [ ] Add more documentation 
 
 Brought to you by [Augmentations](https://github.com/augmentations)
