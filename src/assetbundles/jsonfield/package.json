@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@monaco-editor/loader": "^1.0.1",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "craftcms-sass": "^3.5.7",
+    "monaco-editor": "0.24.0",
+    "prettier": "^2.3.0",
+    "rollup": "^2.48.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "sass": "^1.32.13"
+  }
+}

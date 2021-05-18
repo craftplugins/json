@@ -1,0 +1,11 @@
+.json-field-container {
+  border-radius: 3px;
+  border: 1px solid rgba(96, 125, 159, 0.25);
+  background-color: #fbfcfe;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+.js .json-field-value {
+  display: none !important;
+}

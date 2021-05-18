@@ -1,0 +1,8 @@
+{% import "_includes/forms" as forms -%}
+
+{{ forms.lightswitchField({
+  name: 'prettify',
+  label: 'Prettify'|t('jsonfield'),
+  instructions: 'Whether to pretty print JSON on save.'|t('jsonfield'),
+  on: field.prettify,
+}) }}

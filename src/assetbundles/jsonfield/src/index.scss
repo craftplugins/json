@@ -1,0 +1,10 @@
+@import "../node_modules/craftcms-sass/mixins";
+
+.json-field-container {
+  @include input-styles;
+  overflow: hidden;
+}
+
+.js .json-field-value {
+  display: none !important;
+}

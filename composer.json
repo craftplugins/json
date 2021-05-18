@@ -1,0 +1,43 @@
+{
+  "name": "augmentations/craft-json",
+  "description": "Field type for raw JSON editing.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "json",
+    "json-ld"
+  ],
+  "support": {
+    "docs": "https://github.com/augmentations/craft-json/blob/master/README.md",
+    "issues": "https://github.com/augmentations/craft-json/issues"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Augmentations",
+      "homepage": "https://github.com/augmentations"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "craftcms/cms": "^3.6",
+    "mll-lab/graphql-php-scalars": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "augmentations\\craft\\json\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "JSON",
+    "handle": "json",
+    "developer": "Augmentations",
+    "developerUrl": "https://github.com/augmentations",
+    "documentationUrl": "https://github.com/augmentations/craft-json/json/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/augmentations/craft-json/json/master/CHANGELOG.md"
+  }
+}

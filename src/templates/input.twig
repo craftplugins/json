@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms -%}
+
+<div class="json-field-container">
+  {{ forms.textarea({
+    id: name,
+    name: name,
+    value: value,
+    rows: 10,
+    class: 'json-field-value',
+  }) }}
+</div>
