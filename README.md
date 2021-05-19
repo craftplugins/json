@@ -5,6 +5,8 @@
 
 Craft 3 field type and helpers for easy JSON editing.
 
+<img src="./resources/screenshot-of-editor.png" alt="Screenshot of editor" />
+
 ## Features
 
 ✅ Advanced JSON editor based on [VS Code](https://code.visualstudio.com/)
@@ -37,7 +39,7 @@ To install the plugin, follow these instructions.
 
 ## JSON Roadmap
 
-- [ ] Publish to Packagist
+- [x] Publish to Packagist
 - [ ] Publish to Craft Plugin Store 
 - [ ] Add more documentation 
 
