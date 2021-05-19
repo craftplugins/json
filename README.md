@@ -3,7 +3,7 @@
   <div>JSON for Craft CMS</div>
 </h1>
 
-Craft 3 field type and helpers for easy JSON editing.
+Field type and helpers for easy JSON editing in Craft CMS 3.
 
 <img src="./resources/screenshot-of-editor.png" alt="Screenshot of editor" />
 
