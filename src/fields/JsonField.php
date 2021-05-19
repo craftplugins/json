@@ -7,6 +7,8 @@ use augmentations\craft\json\validators\JsonValidator;
 use Craft;
 use craft\base\ElementInterface;
 use craft\base\Field;
+use craft\gql\GqlEntityRegistry;
+use craft\gql\TypeLoader;
 use craft\helpers\Html;
 use craft\helpers\Json;
 use craft\helpers\StringHelper;
@@ -62,7 +64,22 @@ class JsonField extends Field
      */
     public function getContentGqlType(): Type
     {
-        return new MixedScalar();
+        $typeName = "Mixed";
+
+        if ($type = GqlEntityRegistry::getEntity($typeName)) {
+            return $type;
+        }
+
+        $type = GqlEntityRegistry::createEntity(
+            $typeName,
+            new MixedScalar(["name" => $typeName])
+        );
+
+        TypeLoader::registerType($typeName, function () use ($type) {
+            return $type;
+        });
+
+        return $type;
     }
 
     /**
