@@ -40,7 +40,8 @@ To install the plugin, follow these instructions.
 ## JSON Roadmap
 
 - [x] Publish to Packagist
-- [ ] Publish to Craft Plugin Store 
-- [ ] Add more documentation 
+- [x] Publish to Craft Plugin Store
+- [ ] Add setting to allow/disallow JSON types (i.e. array, object, string)
+- [ ] Add more documentation
 
 Brought to you by [Augmentations](https://github.com/augmentations)
