@@ -1,6 +1,10 @@
-<h1 align="center">
-  <img src="./src/icon.svg" width="64" alt="logo" />
-  <div>JSON for Craft CMS</div>
+> **Warning**
+> 
+> This plugin is no longer maintained. We recommend using [Code Field](https://plugins.craftcms.com/codefield) instead.
+
+<h1>
+  JSON for Craft CMS
+  <img src="./src/icon.svg" alt="Logo" width="40" align="right" />
 </h1>
 
 Field type and helpers for easy JSON editing in Craft CMS 3.
@@ -18,29 +22,5 @@ Field type and helpers for easy JSON editing in Craft CMS 3.
 ✅ GraphQL support
 
 ✅ Includes a `@jsonDecode` directive for GraphQL
-
-## Requirements
-
-This plugin requires Craft CMS 3.6.x or newer.
-
-## Installation
-
-To install the plugin, follow these instructions.
-
-1. Open your terminal and go to your Craft project:
-
-        cd /path/to/project
-
-2. Then tell Composer to load the plugin:
-
-        composer require augmentations/craft-json
-
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for JSON.
-
-## JSON Roadmap
-
-- [x] Publish to Packagist
-- [ ] Publish to Craft Plugin Store 
-- [ ] Add more documentation 
 
 Brought to you by [Augmentations](https://github.com/augmentations)
