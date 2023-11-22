@@ -2,7 +2,7 @@
 > 
 > **This plugin is no longer maintained.**
 >
-> We recommend using [Code Field plugin](https://plugins.craftcms.com/codefield) instead.
+> We recommend using the [Code Field plugin](https://plugins.craftcms.com/codefield) instead.
 
 # JSON field for Craft CMS
 
