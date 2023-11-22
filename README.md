@@ -4,7 +4,7 @@
 >
 > We recommend using [Code Field plugin](https://plugins.craftcms.com/codefield) instead.
 
-# JSON for Craft CMS
+# JSON field for Craft CMS
 
 Field type and helpers for easy JSON editing in Craft CMS 3.
 
