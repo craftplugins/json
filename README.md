@@ -1,11 +1,10 @@
-> **Warning**
+> [!IMPORTANT]
 > 
-> This plugin is no longer maintained. We recommend using [Code Field](https://plugins.craftcms.com/codefield) instead.
+> **This plugin is no longer maintained.**
+>
+> We recommend using [Code Field plugin](https://plugins.craftcms.com/codefield) instead.
 
-<h1>
-  JSON for Craft CMS
-  <img src="./src/icon.svg" alt="Logo" width="40" align="right" />
-</h1>
+# JSON for Craft CMS
 
 Field type and helpers for easy JSON editing in Craft CMS 3.
 
@@ -22,5 +21,3 @@ Field type and helpers for easy JSON editing in Craft CMS 3.
 ✅ GraphQL support
 
 ✅ Includes a `@jsonDecode` directive for GraphQL
-
-Brought to you by [Augmentations](https://github.com/augmentations)
